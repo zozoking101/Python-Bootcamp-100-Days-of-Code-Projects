@@ -21,7 +21,7 @@ while pl1 <= 3 or compscore <= 3:
         print(f"\t\b\b\b{choice[player_play - 1]} - {choice[comp_play - 1]}")
         print(f"\t{pl1} - {compscore}")
     elif play in [[1,1],[2,2],[3,3]]:
-        #Draw conditions
+        #Draw conditionsn
         print("\n\t\b\bYou : Computer")
         print(f"\t\b\b\b{choice[player_play - 1]} - {choice[comp_play - 1]}")
         print(f"\t{pl1} - {compscore}")
