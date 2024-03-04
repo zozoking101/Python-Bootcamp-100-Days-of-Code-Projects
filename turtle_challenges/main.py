@@ -57,17 +57,18 @@ directions = [0, 90, 180, 270]
 #     tim.forward(30)
 #     tim.color(color_string())
 #     tim.setheading(random.choice(directions))
-# polygon(4, 100)
-# dashed_line(10, 10)
-# n_polygons()
+
+polygon(4, 100)
+dashed_line(10, 10)
+n_polygons()
 # print(heroes.gen())
 
-i = 0
-for _ in range(500):
-    tim.circle(100)
-    tim.color(color_string())
-    tim.setheading(i)
-    i += 5
+# i = 0
+# for _ in range(500):
+#     tim.circle(100)
+#     tim.color(color_string())
+#     tim.setheading(i)
+#     i += 5
 
 screen = Screen()
 screen.exitonclick()
