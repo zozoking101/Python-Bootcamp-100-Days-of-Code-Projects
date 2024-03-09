@@ -1,0 +1,5 @@
+yahoo | username@email.com | 123
+bing | username@email.com | 2468
+google.com | username@email.com | password
+jumia.com.ng | username@email.com | wQ6a9Y$AJHv5y
+konga.com | username@email.com | f2f6FKLWw!T4
