@@ -30,16 +30,14 @@ if int(condition_code) < 700:
 
 if will_rain:
     print("Bring an umbrella. ☔")
-    # proxy_client = TwilioHttpClient()
-    # proxy_client.session.proxies = {'https': os.environ['https_proxy']}
-    # client = Client(account_sid, auth_token) # http_client=proxy_client)
+    client = Client(account_sid, auth_token)
     
-    # message = client.messages \
-    #     .create(
-    #         body="It's going to rain today. Remember to bring an umbrella. ☔",
-    #         from_='+16502854781',
-    #         to='+2347066572225'
-    # )
-    # print(message.status)
+    message = client.messages \
+        .create(
+            body="It's going to rain today. Remember to bring an umbrella. ☔",
+            from_='+16502854781',
+            to='+2347066572225'
+    )
+    print(message.status)
 else:
     print("No rain today.")
