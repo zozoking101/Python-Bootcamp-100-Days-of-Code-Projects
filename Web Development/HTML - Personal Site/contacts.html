@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        ul {
+          list-style-type: none;
+          padding-left: 0;
+        }
+
+        ul li::before {
+          content: "▪"; /* ◾  */
+          margin-right: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>My Contact Details ☎</h2>
+    <br>
+    <ul>
+            <li>Address: Lekki, Lagos 📍</li><br>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/zo%C3%AB-oladokun-b3b9bb286/">Click me!</a></li><br>
+            <li>Phone No: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">+234 303 392 2422</a></li><br>
+            <li>Email: zoe.oladokun@gmail.com</li>
+        </ul>
+        <br>
+        <hr>
+    <br>
+    <h4>Message me 📨</h4>
+    <form action="mailto:zoe.oladokun@gmail.com" method="post" enctype="text/plain">
+    <table cellspacing="20" border="0" style="border-collapse: collapse" cellpadding="10">
+        <tr>
+            <td><label for="name">Your Name: </label></td>
+            <td><input type="text" id="name" name="name" placeholder="🔤"></td>
+        </tr>
+
+        <tr>
+        <td><label for="email">Your Email: </label></td>
+        <td><input type="email" id="email" name="email" placeholder="uname@email.com"></td>
+        </tr>
+
+        <tr>
+        <td style="text-align: top;"><label>Your Message: </label><br></td>
+        <td><textarea name="msg" rows="10" cols="30">Hey there!</textarea></td>
+        </tr>
+    </table>
+    <br><br>
+    <input type="submit">
+    </form>
+    <br>
+        <ul>
+            <pre>✨<a href="index.html">Home Page</a>     ✨<a href="hobbies.html">Hobbies</a></pre>
+        </ul>
+</body>
+</html>
